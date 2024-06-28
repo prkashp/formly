@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Prakash-Pandey-s-workspace-fa444h.us-east-1.xata.sh/db/test",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
