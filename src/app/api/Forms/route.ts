@@ -2,9 +2,7 @@
 import { getXataClient } from "@/xata";
 import { NextResponse } from 'next/server'
 
-// const xata = getXataClient();
-import { XataClient } from '@/xata'
-const xata = new XataClient({ apiKey: process.env.XATA_API_KEY })
+const xata = getXataClient();
 
 export async function POST(request: Request) {
   if (request.method === "POST") {
